@@ -19,3 +19,17 @@ For example, which name can you pronounce and remember easily: "genStamp" or "ge
 - Variable names should be verbs, starting with a lowercase letter. run, start, stop, execute etc.
 - Constant names should have all UPPERCASE letters and words are separated by underscores. MAX_SIZE, MIN_WIDTH, MIN_HEIGHT
 - Using camelCase notation for names. StudentManager, CarController, numberOfStudents, runAnalysis etc.
+
+Source of the tutorial: https://www.codejava.net/coding/10-java-core-best-practices-every-java-programmer-should-know#NamingConvention
+Java code conventions: https://www.oracle.com/technetwork/java/codeconventions-150003.pdf
+
+Convention from Sun java
+
+- A file consists of sections that should be separated by blank lines and an optional comment identifying each section
+- Files longer than 2000 lines are cumbersome and should be avoided
+- Wrapping Lines
+  -- Break after a comma
+  -- Break before an operator
+  -- Prefer higher-level breaks to lower-level breaks
+  -- Align the new line with the beginning of the expression at the same level on the previous line
+  -- If the above rules to conusing code or to code that's squished up aginst the right margin, just indent 8 spaces instead
