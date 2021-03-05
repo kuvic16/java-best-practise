@@ -33,3 +33,13 @@ Convention from Sun java
   -- Prefer higher-level breaks to lower-level breaks
   -- Align the new line with the beginning of the expression at the same level on the previous line
   -- If the above rules to conusing code or to code that's squished up aginst the right margin, just indent 8 spaces instead
+
+### Enum
+
+Enums are classes and should follow the conventions for classes. Instances of an enum are constants and should follow the conventions for constants. So
+
+```
+enum Fruit {APPLE, ORANGE, BANANA, PEAR};
+```
+
+There is no reason for writing FruitEnum any more than FruitClass. You are just wasting four (or five) characters that add no information
